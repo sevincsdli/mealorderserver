@@ -17,7 +17,7 @@ mongoose
   });
 app.use(cors(
   {
-    origin:["http://localhost:3000","https://mealorder.onrender.com"],
+    origin:["http://localhost:3000","https://meal-order-hz8q.onrender.com"],
    
   }
 ));

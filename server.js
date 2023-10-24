@@ -17,11 +17,8 @@ mongoose
   });
 app.use(cors(
   {
-    origin:[""],
-    methods:[
-      "POST","GET"
-    ],
-    credentials:true
+    origin:["http://localhost:3000","https://mealorder.onrender.com"],
+   
   }
 ));
 app.use(express.json({ extended: true }));
